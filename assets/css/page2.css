@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+body {
+    background: orange !important
+}
+
+div#logo {
+    padding: 0 35%
+}
+
+
+button {
+    background: green;
+    text-align: center;
+    margin: 2% 0 0 43%;
+    border: 1px solid black;
+}
+
+/*button.btn btn-outline-success{}*/
+nav.navbar navbar-light {
+    margin: 20%
+}
+
+
+@medias creen and (min-width: 1281px) {}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {}
